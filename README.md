@@ -57,13 +57,6 @@ The development of AgriWatch AI involved a dual-track experimental workflow to d
 * Model was exported via `PyTorch` ⮕ `ONNX` ⮕ `TensorFlow` ⮕ `TFLite`.
 * **Result:** This path was prioritized for its maintainable and stable deployment lifecycle, maintaining a high accuracy of **92.10%**.
 
----
-
-## 📂 Project Structure
-
-* `agriwatch_model.tflite`: The 3.1 MB optimized model binary.
-* `deploy.py`: Python script for edge inference.
-* `TECHNICAL_DOC.md`: Detailed engineering report and experimental data.
 
 ---
 
@@ -73,6 +66,17 @@ The development of AgriWatch AI involved a dual-track experimental workflow to d
 * **Potato:** Early_blight, Late_blight, healthy.
 * **Tomato:** Bacterial_spot, Early_blight, Late_blight, Leaf_Mold, Septoria_leaf_spot, Spider_mites, Target_Spot, YellowLeaf_Curl_Virus, Mosaic_virus, healthy.
 
-Refer to Techinical Documentation.ipynb for the full techinical documentation
+---
+
+## 📂 Project Folders
+
+* `models`: Contains all the models during of dual-track experimental workflow.
+* `Tracking and Logs`: The logs of finetuneing and testing. 
+* `agriwatch_model.tflite`: The 3.1 MB optimized model binary.
+* `depolyment`: Contains the requiments, the final model, and a Python script for edge inference.
+* `notebook`: Contains the full code and experiments codes
+* `Techinical Documentation.ipynb`: Clear and detailed techinical documentation of the project
+
+---
 
 
