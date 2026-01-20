@@ -1,0 +1,4 @@
+Using device: cuda
+Epoch [1/3] - Loss: 0.0443, Val Accuracy: 79.65%
+Epoch [2/3] - Loss: 0.0399, Val Accuracy: 83.36%
+Epoch [3/3] - Loss: 0.0464, Val Accuracy: 85.81%

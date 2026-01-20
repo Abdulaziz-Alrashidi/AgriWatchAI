@@ -1,0 +1,13 @@
+Using device: cuda
+Epoch [1/12] - Loss: 0.1502, Val Accuracy: 58.59%
+Epoch [2/12] - Loss: 0.1549, Val Accuracy: 58.49%
+Epoch [3/12] - Loss: 0.1311, Val Accuracy: 63.61%
+Epoch [4/12] - Loss: 0.1328, Val Accuracy: 66.01%
+Epoch [5/12] - Loss: 0.1258, Val Accuracy: 67.05%
+Epoch [6/12] - Loss: 0.1153, Val Accuracy: 64.07%
+Epoch [7/12] - Loss: 0.1088, Val Accuracy: 67.47%
+Epoch [8/12] - Loss: 0.1008, Val Accuracy: 67.56%
+Epoch [9/12] - Loss: 0.0959, Val Accuracy: 69.63%
+Epoch [10/12] - Loss: 0.0944, Val Accuracy: 72.34%
+Epoch [11/12] - Loss: 0.0976, Val Accuracy: 71.37%
+Epoch [12/12] - Loss: 0.0871, Val Accuracy: 65.67%
