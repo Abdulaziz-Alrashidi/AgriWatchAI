@@ -1,7 +1,7 @@
 
 # AgriWatch AI: Edge-Optimized Plant Disease Classification
 
-AgriWatch AI is a high-performance computer vision system designed for real-time plant disease detection on edge hardware. Utilizing a **MobileNetV3** architecture, it classifies 16 healthy and diseased states in Pepper, Potato, and Tomato crops.
+AgriWatch AI is a high-performance computer vision system designed for plant disease detection on edge hardware. Utilizing a **MobileNetV3** architecture, it classifies 16 healthy and diseased states in Pepper, Potato, and Tomato crops.
 
 The project delivers a production-ready **3.1 MB** model optimized for deployment on Raspberry Pi and other ARM-based embedded devices.
 
