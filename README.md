@@ -50,7 +50,7 @@ The development of AgriWatch AI involved a dual-track experimental workflow to d
 ### Workflow 1: Quantization-Aware Training (QAT)
 
 * Explored simulated 8-bit quantization during fine-tuning.
-* **Finding:** While theoretically sound, QAT was ultimately deprecated due to the **complexity and fragility of the exportation pipeline.** The transition through the ONNX-to-TensorFlow bridge introduced parity risks and non-deterministic behavior, making future refinement appears unreliable for a production environment.
+* **Finding:** While theoretically sound, QAT was ultimately deprecated due to the **complexity and fragility of the exportation pipeline.** The transition through the ONNX-to-TensorFlow bridge introduced parity risks and non-deterministic behavior, making future refinement appears unreliable especially in production environment contexts.
 
 ### Workflow 2: Static Float16 Quantization (Selected)
 
