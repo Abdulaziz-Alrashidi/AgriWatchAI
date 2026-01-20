@@ -75,6 +75,4 @@ The development of AgriWatch AI involved a dual-track experimental workflow to d
 
 Refer to Techinical Documentation.ipynb for the full techinical documentation
 
----
 
-**Would you like me to help you refine the `deploy.py` script to ensure it handles the Float16 tensors correctly for your Raspberry Pi setup?**
